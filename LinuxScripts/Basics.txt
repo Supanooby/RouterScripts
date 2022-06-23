@@ -101,6 +101,22 @@ sudo dsu -i 			// List all firmware packages available on local machine
 
 sudo dsu --apply-upgrades	// apply dowlnoaded packages containing functionality for upgrade
 
+sudo lvs			// Check size of availble space in logical volumes
+
+sudo lvcreate --size 5GB --snapshot --name practice /dev/VGname/LVname		// put the correct names for VGname and LVnames, and this will creates the snapshot
+
+sudo lvdisplay									// display relevant informatoin about logical volume
+
+sudo dd if=/dev/sda1 conv=sync,noerror bs=128K | gzip -c > centos-core-7.gz	// Creates backup image
+
+sudo gunzip -c centos-core-7.gz | sudo dd of=/dev/sda1				// Restores Backup Image 
+
+sudo su 									// Go into admin mode
+
+exit										// Exits admin mode
+
+
+
 
 
 
