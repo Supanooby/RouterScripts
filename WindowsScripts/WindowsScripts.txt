@@ -1,0 +1,4 @@
+BranchCache = Feature used in netrwork, where you have branch offices. Allows files present on server, to be stored on client end, reducing network traffic. 
+BranchCache is configured on local server is known as hosted BranchCache.
+We will be configuring distributed cache mode.
+
