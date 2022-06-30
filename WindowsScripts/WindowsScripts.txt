@@ -2,3 +2,27 @@ BranchCache = Feature used in netrwork, where you have branch offices. Allows fi
 BranchCache is configured on local server is known as hosted BranchCache.
 We will be configuring distributed cache mode.
 
+
+
+
+Navigation commands
+Ipconfig
+Ping
+Tracert
+Netstat
+Nslookup
+Shutdown
+Dism
+SFC
+Chkdsk
+Diskpart
+Taskkill
+Gpupdate
+Gpresult
+Format
+Copy
+Xcopy
+Robocopy
+Net Use
+Net User
+Commands Available with the Standard vs. Administrative Privileges
